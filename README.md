@@ -8,4 +8,7 @@ Aiven_Scrape.py
 api.py
  - Flask API script that retrieves rows from database upon users entry parameters
 
+545_ProjectDB.twb
+ - A Tableau dashboard that showcases metrics and visualizations regarding the database
+
 Workflow folder (GitHub Action) is used for the daily execution of the Aiven_Scrape.py file. 
