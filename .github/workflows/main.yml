@@ -1,0 +1,31 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-20.04
+
+    env:
+      DB_CHARSET: ${{ secrets.DB_CHARSET }}
+      DB_HOST: ${{ secrets.DB_HOST }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+      DB_PORT: ${{ secrets.DB_PORT }}
+      DB_USER: ${{ secrets.DB_USER }}
+
+    steps:
+    - name: Check out the code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run Python script
+      run: python Aiven_Scrape.py
