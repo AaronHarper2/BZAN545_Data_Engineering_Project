@@ -1,17 +1,11 @@
-# 545_Project
+# 545 Data Engineering Project
 
-Files:
+Files included in this repository
 
-545_ProjectDB.twb
- - Tableau dashboard
-   
 Aiven_Scrape.py
- - Python script that scrapes data daily and pushes into Aiven database
- 
-URL_scrape.py
- - Original scraping file used to put data into UTK database
-   
-api.py
- - Flask API script
+ - Python script that scrapes data from a specified URL daily and inserts into a MySQL database hosted on an Aiven server.
 
-Workflow folder is used for the GitHub action of daily running of the Aiven_Scrape.py file. 
+api.py
+ - Flask API script that retrieves rows from database upon users entry parameters
+
+Workflow folder (GitHub Action) is used for the daily execution of the Aiven_Scrape.py file. 
