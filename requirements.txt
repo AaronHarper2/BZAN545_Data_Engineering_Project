@@ -1,0 +1,8 @@
+Flask
+Gunicorn
+SQLAlchemy
+pandas
+pymysql
+prometheus-client
+cryptography
+requests
