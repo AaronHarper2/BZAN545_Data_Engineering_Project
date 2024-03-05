@@ -1,6 +1,6 @@
 # 545 Data Engineering Project
 
-<img width="757" alt="Screenshot 2023-12-07 at 8 23 13 PM" src="https://github.com/AaronHarper2/545_Project/assets/119508475/07a33458-0132-40d3-b04d-16771a17bfc3">
+<img width="673" alt="Screenshot 2024-03-05 at 3 13 30 PM" src="https://github.com/AaronHarper2/545_Project/assets/119508475/ad824dec-d78a-4233-bdfb-476bb9fefc6a">
 
 Files included in this repository
 
