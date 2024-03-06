@@ -13,5 +13,7 @@ api.py
 545_ProjectDB.twb
  - A Tableau dashboard that showcases metrics and visualizations regarding the database
 
+https://public.tableau.com/app/profile/aaron.harper3839/viz/BZAN545_Project/ProductsDB
+
 Workflow folder (GitHub Action) is used for the daily execution of the Aiven_Scrape.py file. 
 
